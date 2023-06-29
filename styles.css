@@ -1,0 +1,64 @@
+.container-fluid {
+    background-color: rgb(150, 194, 164);
+}
+
+.navbar-brand {
+    color: rgb(39, 88, 10)
+}
+
+.nav-item {
+    color: rgb(39, 88, 10)
+}
+
+.hero {
+    background-image: url(https://www.thetrainline.com/cmsmedia/cms/9999/wales_hero_1x.jpg);
+    padding-top: 50px;
+    padding-bottom: 300px;
+    padding-left: 10px;
+    color: rgb(10, 77, 46);
+}
+
+.walks {
+    background-color: rgb(150, 194, 164);
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: rgb(10, 77, 46)
+}
+
+.beaches {
+    background-color: rgb(165, 195, 181);
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(10, 77, 46);
+}
+
+.card {
+    background-color: rgb(165, 195, 181);
+    color: rgb(10, 77, 46);
+}
+
+.btn {
+    background-color: rgb(165, 195, 181);
+    border-color: rgb(4, 46, 17);
+    color: rgb(4, 46, 17)
+}
+
+.attractions {
+    background-color: rgb(165, 195, 181);
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    color: rgb(10, 77, 46)
+}
+
+.footer {
+    background-color: rgb(165, 195, 181);
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(4, 46, 17)
+}
