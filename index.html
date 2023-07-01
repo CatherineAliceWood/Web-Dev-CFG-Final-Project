@@ -5,93 +5,96 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="script" type="text/javascript" href="scripts.js">
+  <title>Explore Wales</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">EW</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Featured</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Categories
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Walks</a></li>
-              <li><a class="dropdown-item" href="#">Beaches</a></li>
-              <li><a class="dropdown-item" href="#">Attractions</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+  <script type="text/javascript" src=scripts.js></script>
+  <nav class="navbar container">
+    <h2> <a class=logo href="index.html">EW</a></h2>
+    <div class="navright">
+      <a href="index.html">Home</a>
+      <a href="walks.html">Walks</a>
+      <a href="beaches.html">Beaches</a>
+      <a href="attractions.html">Attractions</a>
+      <a href="contactus.html">Contact us</a>
     </div>
   </nav>
   <div class="hero">
-    <h1>Explore Wales</h1>
-    <p>Bringing you the best recommendations of places to go and things to do in Wales.</p>
+    <div class="container">
+      <h1>Explore Wales</h1>
+      <h5>Bringing you the best recommendations of places to go and things to do in Wales.</h5>
+    </div>
   </div>
-  <div class="walks">
-    <h2>Walks</h2>
-    <p>Did you know there is a public footpath along the entirety of Wales' coastline? Wales also boasts some
-      spectacular mountain ranges.</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcf3mqVsj1_x3jN4ryEzOUjB-9gRRuEnVhDQ&usqp=CAU">
+  <div class="walks container">
+    <div class="row">
+      <div class="col-4">
+        <h2>Walks</h2>
+        <h3>Did you know there is a public footpath along the entirety of Wales' coastline? Wales also boasts some
+          spectacular mountain ranges.</h3>
+      </div>
+      <div class="col-8">
+        <img src="walks.jpg" alt="Eryri Mountain Range">
+      </div>
+    </div>
   </div>
   <div class="beaches">
     <h2 class="text-center">Beaches</h2>
-    <div class="row">
-      <div class="col-sm-4 mb-3 mb-sm-0">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Borth y Gest</h5>
-            <p class="card-text">A stunning beach on the estuary in North Wales.</p>
-            <a href="#" class="btn btn-primary">Read more</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+              <img class=card-image src="Llantwit Major.jpg" alt="Llantwit Major Beach">
+              <h5 class="card-title">Llantwit Major</h5>
+              <p class="card-text">A stunning beach on the Bristol Channel in South Wales.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Southerndown</h5>
-            <p class="card-text">Amazing huge sandy beach in the Vale of Glamorgan in South Wales.</p>
-            <a href="#" class="btn btn-primary">Read more</a>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-image" src="LLandudno.jpg" alt="LLandudno Bay">
+              <h5 class="card-title">Llandudno</h5>
+              <p class="card-text">A beautiful old Victorian town with hotels and guest houses spanning the entire
+                seafront.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">St. David's</h5>
-            <p class="card-text">One of Pembrokeshire's many outstanding beaches.</p>
-            <a href="#" class="btn btn-primary">Read more</a>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-image" src="St. Catherine's Island.jpg"
+                alt="St. Catherine's Island, Tenby, Pembrokeshire">
+              <h5 class="card-title">St. Catherine's Island</h5>
+              <p class="card-text">Attached to Tenby is this beguiling little island. An enigmatic place to explore in
+                Pembrokeshire.</p>
+              <a href="#" class="btn btn-primary">Read more</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="attractions">
-    <h2>Attractions</h2>
-    <p>Wales boasts the largest number of castles per area of any country in Europe.</p>
+  <div class="attractions container">
+    <div class="row">
+      <div class="col-8">
+        <img src="Rhaglan.jpg" alt="Rhaglan Castle">
+      </div>
+      <div class="col-4">
+        <h2>Attractions</h2>
+        <h3>Wales boasts the largest number of castles per area of any country in Europe. There are also many other
+          historical and educational places of interest for all ages throughout Wales.</h3>
+      </div>
+    </div>
   </div>
-  <footer class="footer">
-    <p class="text-center">Made for Code First Girls by Gwenllian Brassington, Prema Doraisamy, Beth Foxcroft, Katie
-      Savage, Abbie West and Catherine Wood 2023</p>
+  <footer>
+    <p class="text-center">Made for Code First Girls by Catherine Wood 2023</p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"

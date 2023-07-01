@@ -1,64 +1,156 @@
-.container-fluid {
-    background-color: rgb(150, 194, 164);
+.container {
+    max-width: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
-.navbar-brand {
-    color: rgb(39, 88, 10)
+.logo {
+    text-decoration: none;
+    font-size: 5vw;
+    color: rgb(10, 77, 46);
+    padding: 1vw;
 }
 
-.nav-item {
-    color: rgb(39, 88, 10)
+.navright {
+    float: right;
+    font-size: 2vw;
 }
 
-.hero {
-    background-image: url(https://www.thetrainline.com/cmsmedia/cms/9999/wales_hero_1x.jpg);
-    padding-top: 50px;
-    padding-bottom: 300px;
-    padding-left: 10px;
+.navright a {
+    padding: 1vw;
+ 
+}
+
+.navbar a {
+    text-decoration: none;
     color: rgb(10, 77, 46);
 }
 
+.navbar a:hover {
+    background-color: rgb(10, 77, 46);
+    color: white;
+}
+
+.navbar a:active {
+    background-color: rgb(10, 77, 46);
+    color: white;
+}
+
+.hero {
+    background-image: url('Wales hero.jpg');
+    background-size: 100%;
+    padding-bottom: 50vw;
+    color: rgb(10, 77, 46);
+}
+
+.hero h1 {
+    font-size: 6vw;
+}
+
+h5 {
+    font-size: 1.4vw;
+
+}
+
 .walks {
-    background-color: rgb(150, 194, 164);
-    margin-top: 5px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    color: rgb(10, 77, 46)
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: rgb(10, 77, 46);
+}
+
+.walks img {
+    width: 800px;
+    max-width: 100%;
+}
+
+h2 {
+    text-decoration: bold;
+    font-size: 5vw;
+}
+
+.walks h3 {
+    margin-top: 1vw;
+    font-size: 2vw;
 }
 
 .beaches {
     background-color: rgb(165, 195, 181);
-    margin-top: 5px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: rgb(10, 77, 46);
 }
 
 .card {
-    background-color: rgb(165, 195, 181);
+    margin-top: 50px;
     color: rgb(10, 77, 46);
+}
+
+.card-title {
+    font-size: 2vw;
+}
+
+.card-text {
+    font-size: 1.5vw;
+}
+
+.card-image {
+    width: 320px;
+    max-width: 100%;
+    padding-bottom: 10px;
 }
 
 .btn {
     background-color: rgb(165, 195, 181);
-    border-color: rgb(4, 46, 17);
-    color: rgb(4, 46, 17)
+    border-color: rgb(10, 77, 46);
+    color: rgb(10, 77, 46);
+    font-size: 1.5vw;
 }
 
 .attractions {
-    background-color: rgb(165, 195, 181);
-    margin-top: 5px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     color: rgb(10, 77, 46)
 }
 
-.footer {
+.attractions img {
+    width: 700px;
+    max-width: 100%;
+}
+
+.attractions h3 {
+    margin-top: 1vw;
+    font-size: 2vw;
+}
+
+footer {
     background-color: rgb(165, 195, 181);
     margin-top: 5px;
     padding-top: 20px;
     padding-bottom: 10px;
-    color: rgb(4, 46, 17)
+    color: rgb(10, 77, 46);
+}
+
+footer p {
+    font-size: 1vw;
+}
+
+h1 {
+    color: rgb(10, 77, 46);
+    font-size: 6vw;
+}
+
+.pages {
+    background-color: rgb(165, 195, 181);
+    padding-top: 2vw;
+    padding-bottom: 1vw;
+}
+
+p {
+    color: rgb(10, 77, 46);
+    font-size: 2vw;
+    padding-top: 10px;
+}
+
+.contactus img {
+    width: 100%;
 }
