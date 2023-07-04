@@ -11,6 +11,10 @@
     padding: 1vw;
 }
 
+.navbar {
+    background-color: white;
+}
+
 .navright {
     float: right;
     font-size: 1.3vw;
@@ -44,6 +48,10 @@
 
 .hero-h1 {
     font-size: 6vw;
+}
+
+.hero-h5 {
+    font-size: 1.3vw;
 }
 
 .home-h2 {
@@ -131,14 +139,11 @@
 
 footer {
     background-color: rgb(165, 195, 181);
-    margin-top: 5px;
-    padding-top: 20px;
-    padding-bottom: 10px;
     color: rgb(10, 77, 46);
-}
-
-footer p {
+    text-align: center;
     font-size: 1vw;
+    padding-top: 3vw;
+    padding-bottom: 0.5vw;
 }
 
 h1 {
