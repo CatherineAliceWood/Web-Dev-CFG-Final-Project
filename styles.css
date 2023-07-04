@@ -6,19 +6,18 @@
 
 .logo {
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 3vw;
     color: rgb(10, 77, 46);
     padding: 1vw;
 }
 
 .navright {
     float: right;
-    font-size: 2vw;
+    font-size: 1.3vw;
 }
 
 .navright a {
     padding: 1vw;
- 
 }
 
 .navbar a {
@@ -43,13 +42,12 @@
     color: rgb(10, 77, 46);
 }
 
-.hero h1 {
+.hero-h1 {
     font-size: 6vw;
 }
 
-h5 {
-    font-size: 1.4vw;
-
+.home-h2 {
+    font-size: 5vw;
 }
 
 .walks {
@@ -63,9 +61,8 @@ h5 {
     max-width: 100%;
 }
 
-h2 {
-    text-decoration: bold;
-    font-size: 5vw;
+.pages-h1 {
+    font-size: 4vw;
 }
 
 .walks h3 {
@@ -94,16 +91,26 @@ h2 {
 }
 
 .card-image {
-    width: 320px;
+    width: fit-content;
     max-width: 100%;
     padding-bottom: 10px;
 }
 
-.btn {
+.card-body a.btn {
     background-color: rgb(165, 195, 181);
     border-color: rgb(10, 77, 46);
     color: rgb(10, 77, 46);
     font-size: 1.5vw;
+}
+
+.card-body a.btn:hover {
+    background-color: rgb(10, 77, 46);
+    color: white;
+}
+
+.card-body a.btn:active {
+    background-color: rgb(10, 77, 46);
+    color: white;
 }
 
 .attractions {
@@ -139,18 +146,85 @@ h1 {
     font-size: 6vw;
 }
 
-.pages {
+.pages-header {
     background-color: rgb(165, 195, 181);
     padding-top: 2vw;
     padding-bottom: 1vw;
 }
 
-p {
+.beaches-content h5 {
+    font-size: 2.5vw;
     color: rgb(10, 77, 46);
-    font-size: 2vw;
-    padding-top: 10px;
+    padding-top: 1vw;
+}
+
+.beaches-content p {
+    font-size: 1.5vw;
+    color: rgb(10, 77, 46);
+}
+
+.beaches-content img {
+    width: 500px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    max-width: 100%
+}
+
+.green-content {
+    background-color: rgb(165, 195, 181);
+}
+
+.leave-comment .btn {
+    background-color: rgb(165, 195, 181);
+    border-color: rgb(10, 77, 46);
+    color: rgb(10, 77, 46);
+}
+
+.leave-comment .btn:hover {
+    background-color: rgb(10, 77, 46);
+    color: white;
+}
+
+.leave-comment .btn:active {
+    background-color: rgb(10, 77, 46);
+    color: white;
+}
+
+.leave-comment {
+    padding-bottom: 1vw;
 }
 
 .contactus img {
-    width: 100%;
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: rgb(10, 77, 46);
+}
+
+form .btn {
+    width: 8vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 1.25vw;
+    background-color: rgb(165, 195, 181);
+    color: rgb(10, 77, 46);
+    border: rgb(10, 77, 46) solid 1px;
+}
+
+form .btn:hover {
+    background-color: rgb(10, 77, 46);
+    color: white;
+}
+
+form .btn:active {
+    background-color: rgb(10, 77, 46);
+    color: white;
+}
+
+label {
+    padding-bottom: 1vw;
+    padding-top: 1vw;
 }
