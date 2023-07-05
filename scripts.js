@@ -57,3 +57,33 @@ function porthgainPrompt() {
     alert("Really?!");
   }
 }
+
+function harlechcastlePrompt() {
+  let message = prompt("Did you enjoy your visit to Harlech Castle?", "yes/no");
+  if (message === "yes") {
+    alert("Huzzah!");
+  }
+  else {
+    alert("Gosh!");
+  }
+}
+
+function rhaglancastlePrompt() {
+  let message = prompt("Did you enjoy your visit to Rhaglan Castle?", "yes/no");
+  if (message === "yes") {
+    alert("It's the best!");
+  }
+  else {
+    alert("No way?!");
+  }
+}
+
+function stdavidscathedralPrompt() {
+  let message = prompt("Did you enjoy your visit to St. David's Cathedral?", "yes/no");
+  if (message === "yes") {
+    alert("We're glad you liked it!");
+  }
+  else {
+    alert("Honest?!");
+  }
+}
