@@ -13,3 +13,12 @@
 - Mobile responsive
 - Effective use of classes and IDs
 - JavaScript used to enable user interaction
+
+I chose to write a prototype Welsh tourism recommendation website. I included some funny little JavaScript prompts just to show what I can do with JS so far.
+
+If I was to develop this site further, I might:
+- add more content
+- add weather forecast information using JS and an API
+- create filter and sort menus
+- create links for different areas and the ability to cross-reference between areas and recommendation categories etc.
+- add maps
