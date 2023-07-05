@@ -1,3 +1,8 @@
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
 .container {
     max-width: 100%;
     padding-left: 5vw;
@@ -13,6 +18,7 @@
 
 .navbar {
     background-color: white;
+    border-bottom:rgb(10, 77, 46) 1px solid;
 }
 
 .navright {
@@ -137,13 +143,16 @@
     font-size: 2vw;
 }
 
-footer {
+.footer {
     background-color: rgb(165, 195, 181);
     color: rgb(10, 77, 46);
     text-align: center;
     font-size: 1vw;
     padding-top: 3vw;
     padding-bottom: 0.5vw;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
 
 h1 {
@@ -160,7 +169,7 @@ h1 {
 .beaches-content h5 {
     font-size: 2.5vw;
     color: rgb(10, 77, 46);
-    padding-top: 1vw;
+    padding-top: 2vw;
 }
 
 .beaches-content p {
@@ -170,7 +179,7 @@ h1 {
 
 .beaches-content img {
     width: 500px;
-    padding-top: 1vw;
+    padding-top: 5vw;
     padding-bottom: 1vw;
     max-width: 100%
 }
@@ -183,6 +192,7 @@ h1 {
     background-color: rgb(165, 195, 181);
     border-color: rgb(10, 77, 46);
     color: rgb(10, 77, 46);
+    font-size: 1.5vw;
 }
 
 .leave-comment .btn:hover {
@@ -202,6 +212,10 @@ h1 {
 .contactus img {
     max-width: 100%;
 }
+.contactus p {
+    color:rgb(10, 77, 46);
+    padding-top: 3vw;
+}
 
 form {
     display: flex;
@@ -210,13 +224,13 @@ form {
 }
 
 form .btn {
-    width: 8vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
+    width: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
     font-size: 1.25vw;
     background-color: rgb(165, 195, 181);
     color: rgb(10, 77, 46);
-    border: rgb(10, 77, 46) solid 1px;
+    border-color: rgb(10, 77, 46);
 }
 
 form .btn:hover {
@@ -227,9 +241,4 @@ form .btn:hover {
 form .btn:active {
     background-color: rgb(10, 77, 46);
     color: white;
-}
-
-label {
-    padding-bottom: 1vw;
-    padding-top: 1vw;
 }
