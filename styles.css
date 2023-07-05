@@ -18,7 +18,7 @@
 
 .navbar {
     background-color: white;
-    border-bottom:rgb(10, 77, 46) 1px solid;
+    border-bottom: rgb(10, 77, 46) 1px solid;
 }
 
 .navright {
@@ -144,7 +144,7 @@
 }
 
 .footer {
-    background-color:rgb(165, 195, 181);
+    background-color: rgb(165, 195, 181);
     color: rgb(10, 77, 46);
     text-align: center;
     font-size: 1vw;
@@ -153,8 +153,8 @@
     bottom: 0;
     position: absolute;
     width: 100%;
-    border:rgb(10, 77, 46) 1px solid;
-   
+    border: rgb(10, 77, 46) 1px solid;
+
 }
 
 h1 {
