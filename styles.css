@@ -153,6 +153,7 @@
     bottom: 0;
     position: absolute;
     width: 100%;
+    border:rgb(10, 77, 46) 1px solid;
    
 }
 
@@ -167,18 +168,18 @@ h1 {
     padding-bottom: 1vw;
 }
 
-.beaches-content h5 {
+.pages-content h5 {
     font-size: 2.5vw;
     color: rgb(10, 77, 46);
     padding-top: 2vw;
 }
 
-.beaches-content p {
+.pages-content p {
     font-size: 1.5vw;
     color: rgb(10, 77, 46);
 }
 
-.beaches-content img {
+.pages-content img {
     width: 500px;
     padding-top: 5vw;
     padding-bottom: 1vw;
@@ -189,23 +190,23 @@ h1 {
     background-color: rgb(165, 195, 181);
 }
 
-.leave-comment .btn {
+.click-here .btn {
     background-color: rgb(165, 195, 181);
     border-color: rgb(10, 77, 46);
     color: rgb(10, 77, 46);
     font-size: 1.5vw;
 }
 
-.leave-comment .btn:hover {
+.click-here .btn:hover {
     background-color: rgb(10, 77, 46);
     color: white;
 }
 
-.leave-comment .btn:active {
+.click-here .btn:active {
     background-color: rgb(10, 77, 46);
     color: white;
 }
 
-.leave-comment {
-    padding-bottom: 1vw;
+.click-here {
+    padding-bottom: 2vw;
 }
