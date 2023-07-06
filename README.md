@@ -22,3 +22,4 @@ If I was to develop this site further, I might:
 - create filter and sort menus
 - create links for different areas and the ability to cross-reference between areas and recommendation categories etc.
 - add maps
+- make the contact us form functioning
