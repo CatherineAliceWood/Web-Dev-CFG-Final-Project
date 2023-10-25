@@ -18,7 +18,7 @@ Final project for the CFG Coding Kickstarter Web Development course
 
 I chose to write a prototype Welsh tourism recommendation website. I included some funny little JavaScript prompts just to show what I can do with JS so far.
 
-If I was to develop this site further, I might:
+### If I was to develop this site further, I could:
 - add more content
 - add weather forecast information using JS and an API
 - create filter and sort menus
