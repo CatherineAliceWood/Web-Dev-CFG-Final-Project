@@ -1,5 +1,6 @@
 # Explore Wales
 [http://catherinealicewood.github.io/Web-Dev-CFG-Final-Project/](http://catherinealicewood.github.io/Web-Dev-CFG-Final-Project/)
+
 Final project for the CFG Coding Kickstarter Web Development course
 ## Spec:
 
